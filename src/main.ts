@@ -3,7 +3,7 @@ import makeDnsQueryPacket from './make_dns_query_packet';
 
 if (process.argv.length < 4) {
     console.log(
-        `Usage: ${process.argv[0]} ${process.argv[1]}`  +
+        `Usage: ${process.argv[0]} ${process.argv[1]} `  +
         '<host-to-resolve> <dns-server-ip>'
     );
 
